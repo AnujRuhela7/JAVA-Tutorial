@@ -1,3 +1,6 @@
+// 9 September 2021
+/* Q5. Design a program in java that identifies answer to the following questions: (a) What is called first during an object creation, a static block or a constructor?
+(b) How many times each (a constructor and a static block) is executed? */
 public class Precedence
 {
     static int count;
@@ -33,7 +36,5 @@ class PrecedenceMain
         Precedence obj2 = new Precedence(30,40);
         System.out.println("Total Number of objects created = " + Precedence.count);
         System.out.println("Constructor is called " + Precedence.count + " times.");
-
-
     }
 }
