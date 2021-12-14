@@ -13,7 +13,7 @@ public class EndWithJj
         System.out.println("Enter string : ");
         str = sc.nextLine();
         Pattern p = Pattern.compile("\\b[A-Za-z]+[jJ]+\\b");
-        Matcher m =  p.matcher(str);
+        Matcher m =  p.matcher(args[0]);
         int ctr = 0;
         while(m.find())
         {
